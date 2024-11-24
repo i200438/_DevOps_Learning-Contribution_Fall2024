@@ -5,11 +5,11 @@ DevOps is a practice that integrates development and operations to improve colla
 
 ## What I’ve Learned in DevOps
 **1. Containerization vs. Virtualization:**
-   - Containerization (e.g., Docker) provides lightweight, isolated environments for applications, whereas virtualization uses virtual machines with their own OS, making them heavier.
-   - Containers improve scalability and efficiency, crucial for modern microservices architectures.
+ - Containerization (e.g., Docker) provides lightweight, isolated environments for applications, whereas virtualization uses virtual machines with their own OS, making them heavier.
+ - Containers improve scalability and efficiency, crucial for modern microservices architectures.
 **2. Docker:**
-   - Docker simplifies application packaging and deployment by creating consistent environments across development, testing, and production.
-   - Key features include image layering, volume management, and networking.
+    - Docker simplifies application packaging and deployment by creating consistent environments across development, testing, and production.
+    - Key features include image layering, volume management, and networking.
 **3. Kubernetes:**
    - A container orchestration tool that manages the deployment, scaling, and operation of containers in clusters.
    - Features like service discovery, load balancing, and self-healing ensure high availability.
