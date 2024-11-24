@@ -46,15 +46,15 @@ Now that we've explored the foundational concepts of DevOps, it's time to see ho
 5. Implement Kubernetes Secrets to store sensitive information, like API keys, securely.
 
 ### Steps to Implement the Workflow:
-1. Setup Infrastructure:
+**1. Setup Infrastructure:**
  - Write a Terraform configuration to provision an EKS cluster.
  - Add a GitHub Action step to initialize and apply the Terraform configuration.
-2. Build and Push Docker Images:
+**2. Build and Push Docker Images:**
  - Use a GitHub Action to build the Docker image for your app and push it to a container registry (e.g., Docker Hub or Amazon ECR).
-3. Deploy to Kubernetes:
+**3. Deploy to Kubernetes:**
  - Use kubectl in your Action workflow to deploy the application manifest to the EKS cluster.
  - Include a step to apply Kubernetes Secrets securely.
-4. Monitor and Verify:
+**4. Monitor and Verify:**
  - Add steps to validate the deployment, such as ensuring Pods are running and services are exposed.
 
 By automating these steps, you ensure a seamless, repeatable process for deploying applications, which is at the heart of DevOps practices. This workflow improves efficiency, security, and scalability, which are critical components of any successful DevOps pipeline.
