@@ -66,7 +66,9 @@ Automating these steps creates a streamlined, repeatable deployment process, a c
 The code for automating the deployment of a sample Angular application is located in the .github/workflows directory of the provided repository. It contains a GitHub Actions workflow that automates building, testing, and deploying the Angular app while managing the pull request merge process. Here's how the workflow operates:
 
 **1. Trigger:** Runs on pull requests targeting the main branch when created or updated.
+
 **2. Environment:** Runs on the latest Ubuntu environment.
+
 **3. Steps:**
  - Checkout: Pulls the repository code.
  - Setup Node.js: Installs Node.js (version 18.13).
