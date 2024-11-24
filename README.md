@@ -1,4 +1,4 @@
-# DevOps Essentials: A Guide Of My Learning Journey
+# DevOps Essentials: A Guide to Essential Concepts
 
 ## Introduction
 DevOps is a practice that integrates development and operations to improve collaboration, automate processes, and deliver software faster and more reliably. This guide highlights the core topics I’ve explored in DevOps and their practical applications.
