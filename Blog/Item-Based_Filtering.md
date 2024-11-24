@@ -11,4 +11,6 @@ Item-based collaborative filtering enhances user experience through automated re
 
 ---
 
-Read the full blog on [Medium] (#https://medium.com/@i200438/a-beginners-guide-to-item-based-collaborative-filtering-1af3a19f7a92).
+Read the full blog on [Medium](https://medium.com/@i200438/a-beginners-guide-to-item-based-collaborative-filtering-1af3a19f7a92).
+
+
