@@ -62,9 +62,9 @@ Now that we've explored the foundational concepts of DevOps, it's time to see ho
 
 By automating these steps, you ensure a seamless, repeatable process for deploying applications, which is at the heart of DevOps practices. Code for automating the deployment of a sample Angular application has been made folder. It can be found in '.github/workflows' in the provided repository. This YAML code sets up a GitHub Actions workflow for building and deploying an Angular app with a merge and commit pipeline. Here's what it does:
 
-**1. Trigger:** Runs on pull requests targeting the main branch when created or updated.
-**2. Environment:** Runs on the latest Ubuntu environment.
-**3. Steps:**
+1. **Trigger:** Runs on pull requests targeting the main branch when created or updated.
+2. **Environment:** Runs on the latest Ubuntu environment.
+3. **Steps:**
  - Checkout: Pulls the repository code.
  - Setup Node.js: Installs Node.js (version 18.13).
  - Install Dependencies: Runs npm install.
