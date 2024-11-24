@@ -65,12 +65,12 @@ By automating these steps, you ensure a seamless, repeatable process for deployi
 1. **Trigger:** Runs on pull requests targeting the main branch when created or updated.
 2. **Environment:** Runs on the latest Ubuntu environment.
 3. **Steps:**
- - Checkout: Pulls the repository code.
- - Setup Node.js: Installs Node.js (version 18.13).
- - Install Dependencies: Runs npm install.
- - Run Tests: Executes tests using npm test.
- - Build Project: Compiles the Angular app using npm run build.
- - Merge PR: Automatically merges the PR if all steps pass.
- - Commit: Adds additional changes (e.g., formatting) and pushes them.
+  - Checkout: Pulls the repository code.
+  - Setup Node.js: Installs Node.js (version 18.13).
+  - Install Dependencies: Runs npm install.
+  - Run Tests: Executes tests using npm test.
+  - Build Project: Compiles the Angular app using npm run build.
+  - Merge PR: Automatically merges the PR if all steps pass.
+  - Commit: Adds additional changes (e.g., formatting) and pushes them.
 
 This workflow streamlines testing, building, and merging pull requests into the main branch.
