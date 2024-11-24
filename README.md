@@ -60,4 +60,4 @@ Now that we've explored the foundational concepts of DevOps, it's time to see ho
 **4. Monitor and Verify:**
  - Add steps to validate the deployment, such as ensuring Pods are running and services are exposed.
 
-By automating these steps, you ensure a seamless, repeatable process for deploying applications, which is at the heart of DevOps practices. This workflow improves efficiency, security, and scalability, which are critical components of any successful DevOps pipeline.
+By automating these steps, you ensure a seamless, repeatable process for deploying applications, which is at the heart of DevOps practices. A sample code for automating the deployment of an Angular application is available in the "application" folder.
