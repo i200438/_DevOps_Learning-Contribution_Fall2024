@@ -60,17 +60,20 @@ Now that we've explored the foundational concepts of DevOps, it's time to see ho
 **4. Monitor and Verify:**
  - Add steps to validate the deployment, such as ensuring Pods are running and services are exposed.
 
-By automating these steps, you ensure a seamless, repeatable process for deploying applications, which is at the heart of DevOps practices. Code for automating the deployment of a sample Angular application has been made folder. It can be found in '.github/workflows' in the provided repository. This YAML code sets up a GitHub Actions workflow for building and deploying an Angular app with a merge and commit pipeline. Here's what it does:
+Automating these steps creates a streamlined, repeatable deployment process, a core principle of DevOps.
 
-1. **Trigger:** Runs on pull requests targeting the main branch when created or updated.
-2. **Environment:** Runs on the latest Ubuntu environment.
-3. **Steps:**
-  - Checkout: Pulls the repository code.
-  - Setup Node.js: Installs Node.js (version 18.13).
-  - Install Dependencies: Runs npm install.
-  - Run Tests: Executes tests using npm test.
-  - Build Project: Compiles the Angular app using npm run build.
-  - Merge PR: Automatically merges the PR if all steps pass.
-  - Commit: Adds additional changes (e.g., formatting) and pushes them.
+## Overview of GitHub Actions Workflow for Automating Angular App Deployment
+The code for automating the deployment of a sample Angular application is located in the .github/workflows directory of the provided repository. It contains a GitHub Actions workflow that automates building, testing, and deploying the Angular app while managing the pull request merge process. Here's how the workflow operates:
+
+**1. Trigger:** Runs on pull requests targeting the main branch when created or updated.
+**2. Environment:** Runs on the latest Ubuntu environment.
+**3. Steps:**
+ - Checkout: Pulls the repository code.
+ - Setup Node.js: Installs Node.js (version 18.13).
+ - Install Dependencies: Runs npm install.
+ - Run Tests: Executes tests using npm test.
+ - Build Project: Compiles the Angular app using npm run build.
+ - Merge PR: Automatically merges the PR if all steps pass.
+ - Commit: Adds additional changes (e.g., formatting) and pushes them.
 
 This workflow streamlines testing, building, and merging pull requests into the main branch.
