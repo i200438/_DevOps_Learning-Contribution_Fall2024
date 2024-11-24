@@ -7,19 +7,25 @@ DevOps is a practice that integrates development and operations to improve colla
 **1. Containerization vs. Virtualization:**
  - Containerization (e.g., Docker) provides lightweight, isolated environments for applications, whereas virtualization uses virtual machines with their own OS, making them heavier.
  - Containers improve scalability and efficiency, crucial for modern microservices architectures.
+
 **2. Docker:**
     - Docker simplifies application packaging and deployment by creating consistent environments across development, testing, and production.
     - Key features include image layering, volume management, and networking.
+
 **3. Kubernetes:**
    - A container orchestration tool that manages the deployment, scaling, and operation of containers in clusters.
    - Features like service discovery, load balancing, and self-healing ensure high availability.
+
 **4. Cloud Cost Optimization:**
    - Techniques like autoscaling, using reserved instances, and monitoring cloud usage help reduce operational costs while maintaining performance.
+
 **5. EKS and Terraform:**
    - EKS: Amazon Elastic Kubernetes Service simplifies Kubernetes cluster management in AWS.
    - Terraform: An Infrastructure as Code (IaC) tool that enables declarative resource provisioning and management, ensuring consistency.
+
 **6. Policy as Code:**
    - Enforcing organizational policies in code form (e.g., Open Policy Agent) ensures compliance and security in automated pipelines.
+
 **7. Infrastructure as Code (IaC):**
    - Tools like Terraform or AWS CloudFormation allow defining infrastructure in code, making deployments repeatable, scalable, and version-controlled.
 
